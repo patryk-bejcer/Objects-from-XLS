@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84148340-5a31-4aba-a762-fac012961753" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
         <counts>
           <entry key="dummy" value="47" />
           <entry key="env" value="4" />
+          <entry key="gitignore" value="15" />
           <entry key="js" value="166" />
           <entry key="php" value="1873" />
           <entry key="vue" value="1139" />
@@ -73,7 +73,7 @@
           <entry key="Blade" value="704" />
           <entry key="JavaScript" value="166" />
           <entry key="PHP" value="1135" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="62" />
           <entry key="SQL" value="41" />
           <entry key="Vue.js" value="1132" />
         </counts>
@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="46">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -328,6 +328,11 @@
             <path>
               <item name="Objects-from-XLS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Objects-from-XLS" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Objects-from-XLS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Objects-from-XLS" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,12 +389,12 @@
       <updated>1547464872679</updated>
       <workItem from="1547464873936" duration="10337000" />
       <workItem from="1547480990885" duration="42000" />
-      <workItem from="1547481053780" duration="11645000" />
+      <workItem from="1547481053780" duration="11717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22024000" />
+    <option name="totallyTimeSpent" value="22096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
@@ -621,8 +626,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="46">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

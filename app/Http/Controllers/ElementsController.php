@@ -6,7 +6,6 @@ use App\City;
 use App\Element;
 use App\Street;
 use App\Year;
-use Illuminate\Http\Request;
 
 class ElementsController extends Controller
 {
@@ -20,9 +19,9 @@ class ElementsController extends Controller
     	$years = Year::all();
     	$cities = City::all();
     	$streets = Street::all();
-    	$objects = Element::all();
+    	$elements = Element::all();
 
-        return view('home', compact('years', 'cities', 'streets', 'objects'));
+        return view('home', compact('years', 'cities', 'streets', 'elements'));
     }
 
 

@@ -4,15 +4,7 @@ namespace App\Console\Commands;
 
 use App\Imports\ElementsImport;
 use Illuminate\Console\Command;
-use Illuminate\Http\File;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\Storage;
 use Maatwebsite\Excel\Facades\Excel;
-
-
-
 
 class ImportXLS extends Command
 {

@@ -12,9 +12,9 @@ class Kernel extends ConsoleKernel
      *
      * @var array
      */
-    protected $commands = [
-        //
-    ];
+	protected $commands = [
+		Commands\ImportXLS::class,
+	];
 
     /**
      * Define the application's command schedule.

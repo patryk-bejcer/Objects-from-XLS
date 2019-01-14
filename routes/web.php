@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'ObjectsController@index');
+Route::get('/', 'ElementsController@index');

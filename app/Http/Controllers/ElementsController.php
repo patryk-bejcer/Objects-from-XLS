@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\City;
-use App\Object;
+use App\Element;
 use App\Street;
 use App\Year;
 use Illuminate\Http\Request;
 
-class ObjectsController extends Controller
+class ElementsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -20,7 +20,7 @@ class ObjectsController extends Controller
     	$years = Year::all();
     	$cities = City::all();
     	$streets = Street::all();
-    	$objects = Object::all();
+    	$objects = Element::all();
 
         return view('home', compact('years', 'cities', 'streets', 'objects'));
     }

@@ -2,7 +2,7 @@
 
 namespace App\Console\Commands;
 
-use App\Imports\ObjectsImport;
+use App\Imports\ElementsImport;
 use Illuminate\Console\Command;
 use Illuminate\Http\File;
 use Illuminate\Support\Facades\DB;
@@ -47,8 +47,8 @@ class ImportXLS extends Command
 	 */
 	public function handle()
 	{
-		if(Excel::import(new ObjectsImport(), 'data.xlsx')){
-			$this->info("Import compete successful!");
+		if(Excel::import(new ElementsImport(), 'data.xlsx')){
+			$this->info("Import successful!");
 		}
 	}
 }

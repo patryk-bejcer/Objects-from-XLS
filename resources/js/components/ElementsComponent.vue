@@ -50,7 +50,10 @@
                 <div class="row mt-2">
                     <div class="col-12 pl-2">
                         <ul>
-                            <li v-for="el in renderElements">{{el.name}}</li>
+                            <li v-for="el in renderElements" >
+                               {{el.name}}
+                            </li>
+                            <div v-if="renderElements.length === 0">Brak elementów o podanych parametrach, spróbuj z innymi prametrami</div>
                         </ul>
                     </div>
                 </div>

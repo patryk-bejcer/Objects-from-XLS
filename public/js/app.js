@@ -1825,6 +1825,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['years', 'cities', 'streets', 'elements'],
   data: function data() {
@@ -36852,10 +36855,26 @@ var render = function() {
           _c("div", { staticClass: "col-12 pl-2" }, [
             _c(
               "ul",
-              _vm._l(_vm.renderElements, function(el) {
-                return _c("li", [_vm._v(_vm._s(el.name))])
-              }),
-              0
+              [
+                _vm._l(_vm.renderElements, function(el) {
+                  return _c("li", [
+                    _vm._v(
+                      "\n                           " +
+                        _vm._s(el.name) +
+                        "\n                        "
+                    )
+                  ])
+                }),
+                _vm._v(" "),
+                _vm.renderElements.length === 0
+                  ? _c("div", [
+                      _vm._v(
+                        "Brak elementów o podanych parametrach, spróbuj z innymi prametrami"
+                      )
+                    ])
+                  : _vm._e()
+              ],
+              2
             )
           ])
         ])
